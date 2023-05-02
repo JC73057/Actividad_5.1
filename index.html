@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- jQuery CDN -->
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <!-- Bootstrap Js CDN -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <!-- Bootstrap CSS CDN -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <title>Rock Store</title>
+
+      <!-- Our Custom CSS -->
+        <link rel="stylesheet" href="./estilos/estilo_principal.css">
+    </head>
+    <body>
+
+        <div class="wrapper">
+            <!-- Sidebar Holder -->
+            <nav id="sidebar">
+                <div class="sidebar-header">
+                    <h3>Rock Store</h3>
+                    <strong>RS</strong>
+                </div>
+
+                <ul class="list-unstyled components">
+                    <li class="active">
+                        <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">
+                            <i class="glyphicon glyphicon-home"></i>
+                            Home
+                        </a>
+                        <ul class="collapse list-unstyled" id="homeSubmenu">
+                            <li><a href="https://www.autopistarock.com/noticias">Noticias</a></li>
+                            <li><a href="/bilboard.html">Bilboard</a></li>
+                            <li><a href="#">Mas vendidos</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="glyphicon glyphicon-briefcase"></i>
+                            Nosotros
+                        </a>
+                        <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">
+                            <i class="glyphicon glyphicon-shopping-cart"></i>
+                            Mis compras
+                        </a>
+                        <ul class="collapse list-unstyled" id="pageSubmenu">
+                            <li><a href="#">Accesorios</a></li>
+                            <li><a href="#">Hombres</a></li>
+                            <li><a href="#">Mujeres</a></li>
+                            <li><a class="glyphicon glyphicon-usd" href="#">Pagar</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="glyphicon glyphicon-link"></i>
+                            Portfolio
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="glyphicon glyphicon-paperclip"></i>
+                            PQR's
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="glyphicon glyphicon-send"></i>
+                            Contacto
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Page Content Holder -->
+            <div id="content">
+
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+
+                        <div class="navbar-header">
+                            <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
+                                <i class="glyphicon glyphicon-align-left"></i>
+                                <span>Mas</span>
+                            </button>
+                        </div>
+
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav navbar-right">
+                              <li class="bil"><a href="bilboard.html">Bilboard</a></li>
+                              <li class="bil"><a href="https://www.autopistarock.com/noticias">Noticias</a></li>
+                              
+
+                               
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+
+                <main class="grid">
+                  <div>
+                    <div id="descu">
+                    <!-- Card -->
+                    <div class="card card-image" style="background-image: url(https://l450v.alamy.com/450ves/rye65h/ilustracion-vectorial-rock-festival-fiesta-concierto-flyer-o-poster-plantilla-de-diseno-con-guitarra-lugar-para-texto-y-geniales-efectos-en-el-fondo-rye65h.jpg);">
+
+                    <!-- Content -->
+                    <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
+                      <div>
+                        <h2 class="pink-text"><i class="fas fa-chart-pie"></i>Eventos</h2>
+                        <h3 class="card-title pt-2"><strong>Todo sobre los proximos conciertos en Colombia</strong></h3>
+                        <p class="info">Aqui puedes comprar las entradas a los proximos eventos en el pais y te decimos como puedes adquirir las entradas de tus artistas favoritos fuera de Colombia.</p>
+                        <a class="btn btn-pink"><i class="fas fa-clone left"></i> <strong> Información</strong></a>
+                      </div>
+                    </div>
+
+                    </div>
+                    <!-- Card -->
+                     </div>
+                    <div id="video">
+                      <video id="my-video" autoplay muted loop>
+                        <source src="./videos/musico-callejero-47.mp4" type="video/mp4">
+                     </video>
+                      
+                    </div>
+                  </div>                
+                    
+                </main>                
+
+                <div class="row">
+                  <h1> Destacados</h1>
+
+                    <div class="col-sm-3">
+                    <div class="card card-block">
+                      <img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180" src="https://indiehoy.com/wp-content/uploads/2022/12/metallica-3.jpg" data-holder-rendered="true" style="height: 180px; width: 100%; display: block;">
+                      <div class="card-block">
+                        <h4 class="card-title">Metallica</h4>
+                        <p class="card-text">Nuevo almbum.</p>
+                        <p>Precio: $ 55.000</p>
+                        <a href="#" class="btn btn-danger">Comprar</a>
+                      </div>
+                      </div>
+                    </div>
+                              <div class="col-sm-3">
+                    <div class="card card-block">
+                      <img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180" src="https://rocknvivo.com/wp-content/uploads/2013/06/systemofadown.jpg" data-holder-rendered="true" style="height: 180px; width: 100%; display: block;">
+                      <div class="card-block">
+                        <h4 class="card-title">System Of a Down</h4>
+                        <p class="card-text">Grandes Exitos.</p>
+                        <p>Precio: $ 5.000</p>
+                        <a href="#" class="btn btn-danger">Comprar</a>
+                      </div>
+                    
+                      
+                    </div>
+                                
+                                
+                              </div>
+                    
+                    <div class="col-sm-3">
+                    <div class="card card-block">
+                      <img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180" src="https://cdn.milenio.com/uploads/media/2021/05/08/kurt-cobain-murio-el-de-2.jpg" data-holder-rendered="true" style="height: 180px; width: 100%; display: block;">
+                      <div class="card-block">
+                        <h4 class="card-title">Kurt Cobain</h4>
+                        <p class="card-text">Unplugged Remasterizado</p>
+                        <p>Precio: $ 45.500</p>
+                        <a href="#" class="btn btn-danger">Comprar</a>
+                      </div>
+                      </div>
+                    </div>
+                    
+                    
+                      <div class="col-sm-3">
+                    <div class="card card-block">
+                      <img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180" src="https://singersroom.com/wp-content/uploads/2023/03/Best-Black-Sabbath-Songs-of-All-Time.jpg" data-holder-rendered="true" style="height: 180px; width: 100%; display: block;">
+                      <div class="card-block">
+                        <h4 class="card-title">Black Sabbath</h4>
+                        <p class="card-text">Mejores exitos</p>
+                        <p>Precio: $ 45.500</p>
+                        <a href="#" class="btn btn-danger">comprar</a>
+                      </div>
+                      </div>
+                    </div>
+                      
+                </div>
+
+                <div class="line"></div>
+
+                <h1> En Oferta</h1>
+
+                <div class="row">
+
+                    <div class="col-sm-3">
+                    <div class="card card-block">
+                      <img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqtEJFvL4BTIqFJLnuDdLVs3C0XHHv1dBcBA&usqp=CAU" data-holder-rendered="true" style="height: 180px; width: 100%; display: block;">
+                      <div class="card-block">
+                        <h4 class="card-title">Geen Day</h4>
+                        <p class="card-text">American Idiot</p>
+                        <p>Precio: $ 35.500</p>
+                        <a href="#" class="btn btn-danger">Comprar</a>
+                      </div>
+                      </div>
+                    </div>
+                              <div class="col-sm-3">
+                    <div class="card card-block">
+                      <img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180" src="https://www.elfinanciero.com.mx/resizer/K4-1DgJhYGQtIqAQ9UOwSKhr_uU=/1200x630/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/Z3LODWE4JZB43ACPIOZBHMRXOY.jpg" data-holder-rendered="true" style="height: 180px; width: 100%; display: block;">
+                      <div class="card-block">
+                        <h4 class="card-title">Blink 182</h4>
+                        <p class="card-text">Exitos</p>
+                        <p>Precio: $ 35.500</p>
+                        <a href="#" class="btn btn-danger">Comprar</a>
+                      </div>  
+                    </div>     
+                                
+                   </div>
+                    
+                    <div class="col-sm-3">
+                    <div class="card card-block">
+                      <img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180" src="https://i.discogs.com/WICFNol9mBrZ9-8ra_7W8h3cEmHKLlDcVSysFACtn3A/rs:fit/g:sm/q:90/h:422/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTg3NjQy/LTE1MjE3NTI4OTEt/NDIyMi5qcGVn.jpeg" data-holder-rendered="true" style="height: 180px; width: 100%; display: block;">
+                      <div class="card-block">
+                        <h4 class="card-title">Stone Temple Pilots</h4>
+                        <p class="card-text">Plush</p>
+                        <p>Precio: $ 40.500</p>
+                        <a href="#" class="btn btn-danger">Comprar</a>
+                      </div>
+                      </div>
+                    </div>
+                      
+                      <div class="col-sm-3">
+                    <div class="card card-block">
+                      <img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180" src="https://estaticos-cdn.epe.es/clip/398ce0f8-7823-4626-85a3-be7eff8d2b5a_alta-libre-aspect-ratio_default_0.jpg" data-holder-rendered="true" style="height: 180px; width: 100%; display: block;">
+                      <div class="card-block">
+                        <h4 class="card-title">Radiohead</h4>
+                        <p class="card-text">Creep</p>
+                        <p>Precio: $ 35.500</p>
+                        <a href="#" class="btn btn-danger">Comprar</a>
+                      </div>
+                      </div>
+                    </div>
+
+                    </div>
+                <div class="line"></div>
+
+                <h1>Outfit</h1>
+
+                <div class="row">
+
+                    <div class="col-sm-3">
+                    <div class="card card-block">
+                      <img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180" src="https://http2.mlstatic.com/D_NQ_NP_920699-MCO47623884961_092021-O.jpg" data-holder-rendered="true" style="height: 300px; width: 100%; display: block;">
+                      <div class="card-block">
+                        <h4 class="card-title">Hombre y Dama</h4>
+                        <p class="card-text">Todas las tallas: S M-L-XL</p>
+                        <p>Precio: $ 25.500</p>
+                        <a href="#" class="btn btn-danger">Comprar</a>
+                      </div>
+                      </div>
+                    </div>
+                              <div class="col-sm-3">
+                    <div class="card card-block">
+                      <img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180" src="https://http2.mlstatic.com/D_NQ_NP_758586-MCO50297310073_062022-O.jpg" data-holder-rendered="true" style="height: 300px; width: 100%; display: block;">
+                      <div class="card-block">
+                        <h4 class="card-title">Hodies Unisex</h4>
+                        <p class="card-text">Todas las tallas: S M-L-XL</p>
+                        <p>Precio: $ 105.500</p>
+                        <a href="#" class="btn btn-danger">Comprar</a>
+                      </div>
+                    </div>
+                                
+                                
+                    </div>
+                    
+                    <div class="col-sm-3">
+                    <div class="card card-block">
+                      <img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180" src="https://www.camisetaszombies.com/14251-home_default/red-hot-chili-peppers-camiseta-raglan.jpg" data-holder-rendered="true" style="height: 300px; width: 100%; display: block;">
+                      <div class="card-block">
+                        <h4 class="card-title">Camiseta Unisex</h4>
+                        <p class="card-text">Tallas: S M-L</p>
+                        <p>Precio: $ 25.500</p>
+                        <a href="#" class="btn btn-danger">Comprar</a>
+                      </div>
+                      </div>
+                    </div>
+                    
+                      
+                      <div class="col-sm-3">
+                    <div class="card card-block">
+                      <img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180" src="https://http2.mlstatic.com/D_NQ_NP_633699-MCO51796651136_102022-W.jpg" data-holder-rendered="true" style="height: 300px; width: 100%; display: block;">
+                      <div class="card-block">
+                        <h4 class="card-title">Combo Hodie y Gorra</h4>
+                        <p class="card-text">Todas las tallas: S M-L-XL</p>
+                        <p>Precio: $ 125.500</p>
+                        <a href="#" class="btn btn-danger">Comprar</a>
+                      </div>
+                      </div>
+                    </div>                      
+                    </div>
+            </div>
+            </div> 
+        </div>
+
+        <video id="my-video" class="video" autoplay muted loop>
+          <source src="./videos/mujer-57315.mp4" type="video/mp4">
+       </video>
+
+        <div class="line"></div>
+
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css">
+        
+        <footer class="footer">
+          <div class="row">
+              <div class="col-sm-6 col-md-4 footer-navigation">
+                  <h3><a href="#"><span>Rock Store</span></a></h3>
+                  <p class="links"><a href="#">Home</a><strong> &middot; </strong><a href="/bilboard.html">Bilboard</a><strong> &middot; </strong><a href="#">Mis compras</a><strong> &middot; </strong><a href="#">Nosotros</a><strong> &middot; </strong><a href="#">Sugerencias</a><strong> &middot; </strong><a href="#">Contacto</a></p>
+                  <p class="company-name">@ Todos los derechos reservados - J.L.C. &copy; 2023</p>
+              </div>
+              <div class="col-sm-6 col-md-4 footer-contacts">
+                  <div><span class="fa fa-map-marker footer-contacts-icon"> </span>
+                      <p><span class="new-line-span">Carrera 111 # 148 - 75</span>Bogotá, Colombia</p>
+                  </div>
+                  <div><i class="fa fa-phone footer-contacts-icon"></i>
+                      <p class="footer-center-info email text-right"> +57 316-238-98-68</p>
+                  </div>
+                  <div><i class="fa fa-envelope footer-contacts-icon"></i>
+                      <p> <a href="#" target="_blank">rockstore@gmail.com</a></p>
+                  </div>
+              </div>
+              <div class="clearfix"></div>
+              <div class="col-md-4 footer-about">
+                  <h4>Acerca de Nosotros</h4>
+                  <p>Somos una empresa fundada en 2018 porque nos apaciona el rock y su entorno</p>
+                  <div class="social-links social-icons"><a href=""><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a><a href="#"><i class="fa fa-github"></i></a></div>
+              </div>
+          </div>
+      </footer>
+
+         <script type="text/javascript">
+             $(document).ready(function () {
+                 $('#sidebarCollapse').on('click', function () {
+                     $('#sidebar').toggleClass('active');
+                 });
+             });
+         </script>
+    </body>
+</html>
